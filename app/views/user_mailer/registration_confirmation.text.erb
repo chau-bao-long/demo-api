@@ -1,0 +1,5 @@
+<%= "Hi #{@user.first_name} #{@user.last_name}," %>,
+
+Thanks for registering! To confirm your registration click the URL below.
+
+<%= "http://192.168.5.32:3000/api/user/confirm_email?token=#{@user.confirm_token}" %>

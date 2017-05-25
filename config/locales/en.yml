@@ -20,3 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  api:
+    unauth: "Unauthenticated"
+    login_fail: "Login fail"
+    email_password_wrong: "Email or password was wrong"
+    invitation_code_is_expired: "Invitation code have already expired"
+    access_token_is_expired: "Access token have already expired"
+    invalid_refresh_token: "Refresh token is invalid"
+    invalid_access_token: "Access token is invalid"
+    register_fail: "Register fail"
+    need_confirm_email: "Need confirm email"
+    wrong_confirm_token: 'Wrong confirm token'
+
